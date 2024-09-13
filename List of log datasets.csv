@@ -1,0 +1,26 @@
+Dataset,Source,Link
+HDFS,LogHub,https://github.com/logpai/loghub/tree/master
+Hadoop,LogHub,https://github.com/logpai/loghub/tree/master
+Spark,LogHub,https://github.com/logpai/loghub/tree/master
+ZooKeeper,LogHub,https://github.com/logpai/loghub/tree/master
+OpenStack,LogHub,https://github.com/logpai/loghub/tree/master
+BGL,LogHub,https://github.com/logpai/loghub/tree/master
+HPC,LogHub,https://github.com/logpai/loghub/tree/master
+Thunderbird,LogHub,https://github.com/logpai/loghub/tree/master
+Windows,LogHub,https://github.com/logpai/loghub/tree/master
+Linux,LogHub,https://github.com/logpai/loghub/tree/master
+Mac,LogHub,https://github.com/logpai/loghub/tree/master
+Android,LogHub,https://github.com/logpai/loghub/tree/master
+HealthApp,LogHub,https://github.com/logpai/loghub/tree/master
+Apache,LogHub,https://github.com/logpai/loghub/tree/master
+OpenSSH,LogHub,https://github.com/logpai/loghub/tree/master
+Proxifier,LogHub,https://github.com/logpai/loghub/tree/master
+Calgary,Internet Traffic Archive,https://ita.ee.lbl.gov/html/traces.html
+Saskatchewan,Internet Traffic Archive,https://ita.ee.lbl.gov/html/traces.html
+Boston,Internet Traffic Archive,https://ita.ee.lbl.gov/html/traces.html
+WorldCup,Internet Traffic Archive,https://ita.ee.lbl.gov/html/traces.html
+NASA,Internet Traffic Archive,https://ita.ee.lbl.gov/html/traces.html
+ClarkNet,Internet Traffic Archive,https://ita.ee.lbl.gov/html/traces.html
+EPA,Internet Traffic Archive,https://ita.ee.lbl.gov/html/traces.html
+SDSC,Internet Traffic Archive,https://ita.ee.lbl.gov/html/traces.html
+YouTube,Zink et al.,https://traces.cs.umass.edu/index.php/Network/Network
