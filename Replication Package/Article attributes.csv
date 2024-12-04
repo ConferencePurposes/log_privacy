@@ -1,0 +1,79 @@
+,,IP address,timestamp,port,ID,network-related,username,response size,configuration details,MAC address,request protocol,email,path,hostname,location,command,password,url,age,credit card
+Log pseudonymization: Privacy maintenance in practice,"IP addresses, usernames",1,,,,,1,,,,,,,,,,,,,
+Pseudonymizing Log Entries with time-selective Disclosure,IP addresses,,,,,,1,,,,,,,,,,,,,
+"Towards an Efficient Log Data Protection in Software Systemsthrough Data Minimization and Anonymization","usernames, IP addresses, port numbers, node names,
+application names, path URLs, user types, passwords, email
+addresses.",1,,1,,,1,,1,,,1,1,1,,,1,,,
+FLAIM: A Multi-level Anonymization Framework for Computer and Network Logs,"IP addresses, time stamp, MAC addresses, host name, port name, network protocol, IP ID, IP options, ICMP codes and types, don't fragment bit, TCP window size, initial TCP sequence number, TCP options, Misc IP fields",1,1,1,1,1,,,,1,1,,,1,,,,,,
+"Preserving Both Privacy and Utility in Network
+Trace Anonymization",IP addresses,1,,,,,,,,,,,,,,,,,,
+"A Multi-view Approach to Preserve Privacy and Utility inNetwork Trace Anonymization",IP addresses,1,,,,,,,,,,,,,,,,,,
+Privacy in the Cloud: A Survey of Existing Solutions and Research Challenges,-,,,,,,,,,,,,,,,,,,,
+"A study of usability-aware network traceanonymization","timestamp, IP addresses, protocol, port numbers, packet sizes, bytes, TOS flags",1,1,1,,1,,1,,,1,,,,,,,,,
+The Challenges of Effectively Anonymizing Network Data,Discuss this question but do not give explicit answer.,,,,,,,,,,,,,,,,,,,
+"Anonym: A Tool for Anonymization of the InternetTraffic","timestamp, IP addresses, MAC addresses, port numbers, packet length",1,1,1,,,,1,,1,,,,,,,,,,
+"Evaluating the Utility of Anonymized Network Traces forIntrusion Detection","timestamp, IP addresses, port numbers, ID, sequence number, flags, ACK number",1,1,1,1,1,,,,,,,,,,,,,,
+"SCRUB-tcpdump: A Multi-Level Packet Anonymizer
+Demonstrating Privacy/Analysis Tradeoffs","MAC address, network type, timestamp, IP address, IP protocol, IP options, IP checksum, TOS, ports, TCP flags, TCP checksum, payload",1,1,,,1,,,,1,,,,,,,,,,
+"CANINE: A Combined Conversion andAnonymization Tool for ProcessingNetFlows for Security","timestamp, IP addresses, port numbers, protocols, byte counts",1,1,1,,,,1,,,1,,,,,,,,,
+"SCRUB-PA: A Multi-Level Multi-DimensionalAnonymization Tool for Process Accounting","command name, timestamp, user ID, group ID, time usage, accounting flag, character transferred, page faults, memory usage",,1,,1,1,,,1,,,,,,,1,,,,
+Prefix-Preserving IP Address Anonymization: Measurement-based Security Evaluation and a New Cryptography-based Scheme,IP addresses,1,,,,,,,,,,,,,,,,,,
+Anonymization of Network Traces Data through Condensation-based Differential Privacy,"IP addresses, timestsmps, port numbers, number of packets",1,1,1,,,,,,,,,,,,,,,,
+Anonymization of System Logs for Privacy and Storage Benefits,"path, version, email, datetime, IPv4, port, parameter, URID, user, library, hardware address, hex number, percentage, serial number, size",1,1,1,1,,1,,1,,,1,1,,,,,,,
+AFT-Anon: A scaling method for online trace anonymization based on anonymous flow tables,IP addresses,1,,,,,,,,,,,,,,,,,,
+iCAT+: An Interactive Customizable Anonymization Tool using Automated Translation through Deep Learning,"IP addresses, integer/decimal, identifier, time/date, constant, string",1,1,,1,,,,,,,,,,,,,,,
+"PD-PAn: Prefix- and Distribution-Preserving Internet of Things
+Traffic Anonymization",IP addresses,1,,,,,,,,,,,,,,,,,,
+Toward Privacy Preservation Using Clustering Based Anonymization: Recent Advances and Future Research Outlook,-,,,,,,,,,,,,,,,,,,,
+Libra: High-Utility Anonymization of Event Logs for Process Mining via Subsampling,"timestamp, case ID, activity label",,1,,1,,,,,,,,,,,,,,,
+Assessing Data Usefulness for Failure Analysis in Anonymized System Logs,"log message, path, username",,,,,,1,,,,,,1,,,,,,,
+A Self-adaptive and Secure Approach to Share Network Trace Data,"IP, network attributes",1,,,,1,,,,,,,,,,,,,,
+Algorithms and tools for anonymization of the Internet traffic,"timestamp, IP, mac address, packet length",1,1,,,,,1,,1,,,,,,,,,,
+"POSTER: An Online Prefix-PreservingIP Address Anonymization Algorithmfor Passive Measurement Systems",IP addresses,1,,,,,,,,,,,,,,,,,,
+Differentially-Private Network Trace Analysis,"timestamp, IP address, packets, TTL",1,1,,,1,,,,,,,,,,,,,,
+Anonymization Techniques for URLs and Filenames,"url, filename",,,,,,,,,,,,1,,,,,1,,
+Network log anonymization: Application of crypto-PAn to Cisco netflows,IP addresses,1,,,,,,,,,,,,,,,,,,
+PktAnon – A Generic Framework for Profile-based Traffic Anonymization,"Ethernet, ARP, IPv4, IPv6, ICMPv4, UDP, TCP, and PayloadPacket",1,,,,1,,,,,,,,,,,,,,
+A generic anonymization framework for network traffic,"IP address, TCP/UDP, packet length, TTL",1,,,,1,,1,,,,,,,,,,,,
+Deep Packet Anonymization,IP address,1,,,,,,,,,,,,,,,,,,
+"Flexible and High-Performance Anonymization of
+NetFlow Records using Anontool",IP address,1,,,,,,,,,,,,,,,,,,
+α-MON: Anonymized Passive Traffic Monitoring,"IP address, domain name, user strings (e.g., browser type, version, OS)",1,,,,,,,1,,,,,1,,,,,,
+The role of network trace anonymization under attack,-,,,,,,,,,,,,,,,,,,,
+"A configurable anonymisation approach for network flow data:
+Balancing utility and privacy",IP address,1,,,,,,,,,,,,,,,,,,
+The CoralReef Software Suite as a Tool for System and Network Administrators,"IP address, port number",1,,1,,,,,,,,,,,,,,,,
+ Anonymization of ip traffic monitoring data: Attacks on two prefix-preserving anonymization schemes and some proposed remedies,IP address,1,,,,,,,,,,,,,,,,,,
+CIRCUMVENTING IP-ADDRESS PSEUDONYMIZATION,IP address,1,,,,,,,,,,,,,,,,,,
+Sharing Computer Network Logs for Security and Privacy: A Motivation for New Methodologies of Anonymization,,,,,,,,,,,,,,,,,,,,
+Usable Privacy-Aware Logging for Unstructured Log Entries,"user id, name",,,,1,,1,,,,,,,,,,,,,
+Framework for Privacy-Aware Web Service Logging,"age, username, id, credit card, zip code, address, email",,,,1,,1,,,,,1,,,1,,,,1,1
+"Sharing Network Logs for Computer Forensics: A New Tool for the Anonymization
+of NetFlow Records","Source IP Address, Destination
+IP Address, Source Port, Destination Port, Start Timestamp,
+End Timestamp, Protocol and Byte Count",1,1,1,,,,1,,,1,,,,,,,,,
+"Outsourcing Security Analysis with Anonymized
+Logs",1) Start Time; 2)Source IP Address; 3) Source Port; 4) Destination IP Address; 5)Destination Port; 6) IP protocol type,1,1,1,,,,,,,1,,,,,,,,,
+PRETSA: Event Log Sanitization for Privacy-aware Process Discovery,,,,,,,,,,,,,,,,,,,,
+Privacy analysis of user association logs in a large-scale wireless LAN,MAC address,,,,,,,,,1,,,,,,,,,,
+Delog: A High-Performance Privacy Preserving Log Filtering Framework,,,,,,,,,,,,,,,,,,,,
+Preserving Organizational Privacy in Intrusion Detection Log Sharing,"IP, time, port",1,1,1,,,,,,,,,,,,,,,,
+TripleLP: Privacy-Preserving Log Parsing Based on Blockchain,,,,,,,,,,,,,,,,,,,,
+"PLI-Assess: A Behavior Profile-Based Approach
+for Privacy-Preserving Log Assessment",,,,,,,,,,,,,,,,,,,,
+"Cloud RAN Based Privacy Preserving Federated
+Cross Domain Anomaly Detection in IoT Devices
+Logs",,,,,,,,,,,,,,,,,,,,
+"A Preliminary Study on Sensitive Information
+Exposure Through Logging",,,,,,,,,,,,,,,,,,,,
+"Privacy-Centric Log Parsing for Timely, Proactive Personal Data Protection",,,,,,,,,,,,,,,,,,,,
+A Preliminary Study on the Privacy Concerns of Using IP Addresses in Log Data,IP address,1,,,,,,,,,,,,,,,,,,
+Studying Privacy Leaks in Android App Logs,"1. Platform IDs: Device ID, serial number, Android ID, advertising ID.
+2. User-related information, including the user’s name and email account.
+3. Other privacy-related information, including manufacturer information.",,,,1,,1,,1,,,1,,,,,,,,
+"A Taxonomy and Adversarial Model for
+Attacks against Network Log Anonymization",,,,,,,,,,,,,,,,,,,,
+Analyzing confidentiality and privacy concerns: insights from Android issue logs,,,,,,,,,,,,,,,,,,,,
+From Fingerprint to Footprint: Revealing Physical World Privacy Leakage by Cyberspace Cookie Logs,"user ID, location",,,,1,,,,,,,,,,1,,,,,
+,TOTAL,34,16,12,10,9,8,6,5,5,5,4,4,3,2,1,1,1,1,1
+,TOTAL (%),59,28,21,17,16,14,10,9,9,9,7,7,5,3,2,2,2,2,2

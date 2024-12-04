@@ -1,0 +1,132 @@
+,,,,,,,,,,,,,,,,,,,,,,,
+1,HDFS,Date,Time,Pid,Level,Component,block_id,IP address,port,Block size,file_path,,,,,,,,,,,,
+,,81109,204005,35,INFO ,dfs.FSNamesystem,blk_7128370237687728475,10.251.73.220,50010,67108864,/user/root/rand/_temporary/_task_200811092030_0001_m_000742_0/part-00742,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+2,Hadoop,Date,Time,Level,Thread,Component,URI,hostname,IP address,port,file_path,FQDN,Attempt ID,Container ID,JVM ID,job ID,Task ID,Application ID,,Configuration details,Others,,
+,,2015-10-18,"18:01:47,978",INFO,RMCommunicator Allocator,org.apache.hadoop.mapreduce.v2.app.MRAppMaster,hdfs://msra-sa-41,msra-sa-41,10.190.173.170,62260,C:\Users\msrabi\AppData\Local\Temp\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\webapp,msra-sa-41.fareast.corp.microsoft.com,attempt_1445144423722_0020_m_000001_0,container_1445144423722_0020_01_000003,jvm_1445144423722_0020_m_000002,job_1445144423722_0020,task_1445144423722_0020_m_000004,application_1445144423722_0020,,"<memory:8192, vCores:32>
+Upper limit on the thread pool size is 500
+rack details: /default-rack","Already tried 0 time(s)
+sleepTime=1000 MILLISECONDS",,
+,,,,,,,,,,,,,,,,,,,,,,,
+3,Spark,Date,Time,Level,Component,URI,hostname,IP address,port,Task ID,file_path,Execution time,Attempt ID,block_id,,,,,,Configuration details,,,
+,,17/06/09,20:10:40,INFO,spark.SecurityManager,spark://CoarseGrainedScheduler@10.10.34.11:48069,mesos-slave-07,10.10.34.11,48069,Got assigned task 1244,/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4,"Reading broadcast variable 8 took 19 ms
+Times: total = 1072, boot = 856, init = 210, finish = 6",attempt_201706092018_0024_m_000004_1026,rdd_42_10,,,,,,"MemoryStore started with capacity 17.7 GB
+memory (estimated size 21.4 KB, free 35.4 KB)",,,
+,,,,,,,,,,,,,,,,,,,,,,,
+4,ZooKeeper,Date,Time,Level,Node,Component,ID,IP address,Port,Session ID,file_path,Transaction ID,Memory address,,,,,,,Configuration details,,,
+,,2015-07-29,"17:41:44,747",INFO,SendWorker,188978561024:QuorumCnxManager$SendWorker@688,188978561024,10.10.34.13,57707,0x14ed93111f20005,/etc/zookeeper/conf,0x700000197,@33557fe4,,,,,,,Timeout: negotiated timeout 10000,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+5,OpenStack,Filename,Date,Time,Pid,Level,Component,Request ID,Tenant ID,User ID,IP address,Request/Resource (file_path),Method,Protocol,Status code,Bytes received (Response size),Response time,Instance ID,Image ID,Configuration details,Instance metadata,Host Node,
+,,nova-api.log.1.2017-05-16_13:53:08,2017-05-16,00:00:03.091,25746,INFO,nova.osapi_compute.wsgi.server,req-38101a0b-2096-447d-96ea-a692162415ae,113d3a99c3da401fbd62cc2caa5b96d2,54fadb412c4e40cdbaed9335e4c35a9e,10.11.10.1,/v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail,GET,HTTP/1.0,200,1893,0.2731631,b9000564-fe1a-409b-b8cc-1e88b294cd1d,0673dd71-34c5-4fbb-86c4-40623fbe45b4,"Total usable vcpus: 16, total allocated vcpus: 1
+phys_ram=64172MB used_ram=2560MB
+phys_disk=15GB used_disk=20GB",/openstack/2012-08-10/meta_data.json,cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us,
+,,,,,,,,,,,,,,,,,,,,,,,
+6,BGL,Date,Time,Level,Unix time,Node,Component,IP address,port,Log type,file_path,Memory address,Core ID,Bitmask,,,,,,Configuration details,,,
+,,2005-06-03,15.42.50.675872,INFO,1117838570,R02-M1-N0-C:J12-U11,KERNEL,172.16.96.116,33569,KERNDTLB,/p/gb2/welcome3/32k_128x256x1_8x4x4.map,0x00004ed8,core.3919,0x80,,,,,,"ciod: In packet from node 91.0 (R62-M1-Nf-C:J03-U11)
+ciod: generated 58 core files",,,
+,,,,,,,,,,,,,,,,,,,,,,,
+7,HPC,Log ID,Node ID,Component,Event type,Time,HWID (Hardware Identifier),IP address,Command,Node ID,Fan speed,WWID (World Wide Identifier),Flag,Storage ID,Temperature,Hexadecimal Status codes,,,,,,,
+,,134681,node-246,unix.hw,start,1077804742,1973,5.5.224.0,1911,node-162,1 Fan speeds ( 3552 3534 3375 11637 3515 3479 ),\042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\042 is in the unavailable state,1,"storage1422
+root24_local",node temperature 1077205904 1 ambient=33,0x0001edfe,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+8,Thunderbird,Timestamp,Date,Time,User,Location,Component,PID,IP address,Port,Mac address,file_path,Email message ID,Email recipient,Email time,Email size,Email relay,Delay (Processing time),Device ID,Configuration details,Memory address,Temperature,
+,,1131566461,2005.11.09,12:01:01,aadmin1,src@aadmin1,crond(pam_unix),2915,10.100.4.251,22,00:11:43:e3:ba:c3,/apps/x86_64/system/ganglia-3.0.1/sbin/gmetad,jA9JBXVI027337,dadmin1,200511091911,1597080,#7#@localhost,0:00:01,0x1028:0x0013:0x1028:0x016c,"Detected 3591.360 MHz processor
+checking TSC synchronization across 4 CPUs: passed.
+NIC Link is Up 1000 Mbps Full Duplex
+Assuming 33MHz system bus speed for PIO modes
+colour VGA+ 80x25
+Intel(R) Xeon(TM) CPU 3.60GHz stepping 03
+L2 cache: 2048K
+Intel E7520/7320/7525 detected.<6>pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+syslog-ng version 1.6.7 starting
+xinetd Version 2.3.13 started",0xfec00000,Temperature changed -2 Celsius to 26 Celsius,
+,,,,,,,,,,,,,,,,,,,,,,,
+9,Windows,Date,Time,Level,Component,Session ID,Client,State,Package name,Memory address,File_path,Registry key,,,,,,,,Configuration details,Deployment engine,,
+,,2016-09-28,04:30:30,Info ,CBS,30546173_4281313522,WindowsUpdateAgent,112,Package_for_KB3121255~31bf3856ad364e35~amd64~~6.1.1.0,@0x47e9e0 ,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll,bf1a281b-ad7b-4476-ac95-f47682990ce7,,,,,,,,"wcp.dll version 0.0.0.6
+Servicing Stack v6.1.7601.23505
+SQM: Cleaning up report files older than 10 days.",d16d444c-56d8-11d5-882d-0080c847b195,,
+,,,,,,,,,,,,,,,,,,,,,,,
+10,Linux,Date,Time,Level,Component,Event type,User ID (uid),IP address,hostname,User,file_path,Email,Memory,Processor speed,Memory address,,,,,Configuration details,Others,Others,Others
+,,Jun 14,15:16:01,Combo,sshd,authentication failure,0,218.188.2.4 ,220-135-151-1.hinet-ip.hinet.net,cyrus,/udev/vcsa2,bhcompile@bugs.build.redhat.com,Memory: 125312k/129720k available,Detected 731.219 MHz processor,0xfc0ce,,,,,"CPU: Intel Pentium III
+""Linux version 2.6.5-1.358
+gcc version 3.3.3 20040412
+Red Hat Linux 3.3.3-7""
+CPU: L1 I cache: 16K, L1 D cache: 16K
+CPU: L2 cache: 256K",Jul 27 14:41:59 combo kernel: PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,SELinux:  Initializing.,timed out after 900 seconds
+,,,,,,,,,,,,,,,,,,,,,,,
+11,Mac,Date,Time,Hostname,Component,PID,MAC address,IP address (IPV6),IP address,Port,file_path,url,Network interface,,Country code,Hexadecimal Status codes,,,,Others,Others,,
+,,Jul 1,9:00:55,calvisitor-10-105-160-95,kernel,43,5c:50:15:4c:18:13,2607:f140:6000:8:c6b3:1ff:fecd:467f,119.81.102.227,80,/private/var/run/mDNSResponder,https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/,en0,,en0: 802.11d country code set to 'US'.,0xE0000340,,,,"Maintenance 2017/7/1 21:52:00, sleep 2017/7/1 21:39:51
+2017-07-06_14,15,59.644892",PM response took 1938 ms,,
+,,,,,,,,,,,,,,,,,,,,,,,
+12,Android,Date,Time,PID,TID (Thread ID),Level,Component,uid,PID,,Configuration details,Memory address,Bitmask,,,,,,,,,,
+,,03-17,16:13:39,1702,2395,D (debug),WindowManager,uid=10037,pid: 28601,,"brighness level: brightnessIn =38
+packages: ""com.tencent.mobileqq
+packages: com.example.android.notepad/com.example.android.notepad.NoteEditor""",@712d093,0x40000500,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+13,HealthApp,Date,Time,Component,PID,Event type,steps,calories,altitude,Screen_on & Screen_off,Memory address,Name of application,deviceID,clientID,,,,,,,,,
+,,20171223,22:15:29:606,Step_LSC,30002312,onReceive,onStandStepChanged 3786,totalCalories=126818,totalAltitude=240,,@8a2a501,packageName = com.huawei.health,2,1,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+14,Apache (errors),Date,Time,Level,Component,PID,,,IP address,,file_path,,,,,,,,,,,,
+,,Sun Dec 04 2005,4:47:44,notice,jk2_init(),child 6748,,,222.166.160.184,,/etc/httpd/conf/workers2.properties,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+15,OpenSSH,Date,Time,Hostname,Component,PID,TTY (the used terminal),SSH version,IP address,Port,FQDN,Username,Authentication method,uid,euid,,,,,,,,
+,,Dec 10,6:55:46,LabSZ,sshd,24200,tty = ssh,ssh2,173.234.31.186,38926,ec2-52-80-34-196.cn-north-1.compute.amazonaws.com.cn,"Accepted password for fztu
+invalid user cheng [preauth]
+Invalid user magnos from 187.141.143.180",pam_unix,uid=0 ,euid=0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+16,Proxifier,Date,Time,Application,Hostname,Port,IP address,Protocol,Bytes sent,Bytes received,Duration,Status code,error code,,,,,,,,,,
+,,10-30,16:49:06,chrome.exe,proxy.cse.cuhk.edu.hk,5070,86.99.222.235,HTTPS,403 bytes sent,426 bytes received,lifetime 00:02,403,error 11001,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+17,Calgary,Client IP,Server IP,Date,Time,Method,Request/Resource (file_path),Protocol,Status code,Bytes received (Response size),,,,,,,,,,,,,
+,,local,-,24/Oct/1994,13:41:41,GET ,index.html,HTTP/1.0,200,150,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+18,Saskatchewan,Hostname,IP address,Date,Time,Method,Protocol,Status code,Bytes received (Response size),URL,Request/Resource (file_path),Username,,,,,,,,,,,
+,,"auriga.unm.edu
+hollerith.hrz.tu-chemnitz.de",200.17.150.2,02/Jun/1995,07:54:52,GET,HTTP/1.0,200,2273,http://cuiwww.unige.ch/w3catalog,"/~turner/june8
+/~keele/images/karate/icon/yokogeri.gif","macphed
+turner",,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+19,Boston,Machine number,Time,uid,URL,Bytes received (Response size),Response time,,,,,,,,,,,,,,,,
+,,cs 17,795135444,903467,http://cs-www.bu.edu/lib/pics/bu-logo.gif,1803,0.482334,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+20,WorldCup,IP address,Date,Time,Method,Protocol,Status code,,Bytes received (Response size),,Request/Resource (file_path),,,,,,,,,,,,
+,,2650103,12/Jul/1998,15:43:32,GET,HTTP/1.0,200,,793,,/images/102321s.gif,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+21,NASA,Hostname,IP address,Date,Time,Method,Protocol,Status code,Bytes received (Response size),,Request/Resource (file_path),,,,,,,,,,,,
+,,"kuts5p06.cc.ukans.edu
+uconnvm.uconn.edu",129.188.154.200,01/Jul/1995,0:00:14,GET,HTTP/1.0,200,40310,,/history/apollo/images/footprint-logo.gif,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+22,YouTube,Time,Client IP,Server IP,Request Type,Video ID,Other parameter,Second Server IP,,,,,,,,,,,,,,,
+,,1205466912.869940,63.22.65.94,140.8.48.66,GETVIDEO,mibZk0gP9aU,"signature
+origin",254.212.21.128 ,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+23,ClarkNet,Hostname,IP address,Date,Time,Method,Protocol,Status code,Bytes received (Response size),,Request/Resource (file_path),,,,,,,,,,,,
+,,agh008h-1.forestry.okstate.edu,204.249.225.59,28/Aug/1995,0:00:35,GET,HTTP/1.0,200,4993,,/pub/robert/past99.gif,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+24,EPA,Hostname,IP address,Date,Time,Method,Protocol,Status code,Bytes received (Response size),,Request/Resource (file_path),,,,,,,,,,,,
+,,wpbfl2-45.gate.net,140.112.68.165,29/Aug/1995,29:23:55:33,GET,HTTP/1.0,200,2788,,/logos/us-flag.gif,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+25,SDSC,Host ID,,Date,Time,Method,Protocol,Response Status,Status message,,Request/Resource (file_path),,,,,,,,,,,,
+,,6+1,,Aug 22 1995,0:00:22,GET,HTTP/1.0,Sent binary,"Sorry, access denied or file does not exist.",,/var/spool/gn/Fun/Movies,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,worldcup,IP renumbered,,,,,,,,,,,,,,,,,
+,,,,,SDSC,IP renumbered,,,,,,,,,,,,,,,,,
+,Attribute,Counts,Percentage,,Calgary,IP removed,,,,,,,,,,,,,,,,,
+,IP address,20,80,,Boston,ID renumbered,,,,,,,,,,,,,,,,,
+,Mac address,2,8,,,,,,,,,,,,,,,,,,,,
+,Date and Time,25,100,,,,,,,,,,,,,,,,,,,,
+,File path,18,72,,,,,,,,,,,,,,,,,,,,
+,URL,6,24,,,,,,,,,,,,,,,,,,,,
+,Log level,10,40,,,,,,,,,,,,,,,,,,,,
+,Component,15,60,,,,,,,,,,,,,,,,,,,,
+,ID,18,72,,,,,,,,,,,,,,,,,,,,
+,Hostname,11,44,,,,,,,,,,,,,,,,,,,,
+,Port,9,36,,,,,,,,,,,,,,,,,,,,
+,Request protocol,9,36,,,,,,,,,,,,,,,,,,,,
+,Request method,8,32,,,,,,,,,,,,,,,,,,,,
+,Request status,9,36,,,,,,,,,,,,,,,,,,,,
+,Request size,9,36,,,,,,,,,,,,,,,,,,,,
+,Request time,2,8,,,,,,,,,,,,,,,,,,,,
+,Environmental data,2,8,,,,,,,,,,,,,,,,,,,,
+,Configuration details,9,36,,,,,,,,,,,,,,,,,,,,
+,Username,2,8,,,,,,,,,,,,,,,,,,,,
